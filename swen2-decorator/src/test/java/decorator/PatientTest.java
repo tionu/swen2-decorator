@@ -13,6 +13,8 @@ public class PatientTest {
 
 	@Test
 	public void testBuilderPattern() {
+		
+		
 		Patient patient = new Patient.PatientBuilder().nachname("Morta").vorname("Lui")
 				.adresse("Spielweg", "5a", 78462, "Konstanz").build();
 
